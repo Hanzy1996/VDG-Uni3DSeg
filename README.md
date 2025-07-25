@@ -139,13 +139,13 @@ python tools/test.py configs/vdguni_s3dis.py work_dirs/vdguni_s3dis/final.pth
 
 ## 📊 Model Zoo & Results
 
-Note: Due to random initialization, training results may slightly vary. Running multiple seeds may be needed to match paper performance.
+Note: Due to random initialization, training results may slightly vary. Running multiple seeds may be needed to match paper performance. Config files are available in `configs/`.
 
 | Dataset | mAP<sub>25</sub> | mAP<sub>50</sub> | mAP | mIoU | PQ | Download |
 |:-------:|:----------------:|:----------------:|:---:|:----:|:--:|:--------:|
-| ScanNet | 86.3 | 78.1 | 59.1 | 76.1 | 71.3 | [model]() &#124; [log]() &#124; [config]() |
-| ScanNet200 | 45.1 | 40.0 | 29.5 | 29.7 | 31.3 | [model]() &#124; [log]() &#124; [config]() |
-| S3DIS | 80.6 | 74.1 | 60.1 | 71.5 | 66.3 | [model]() &#124; [log]() &#124; [config]() |
+| ScanNet | 86.3 | 78.1 | 59.1 | 76.1 | 71.3 | [model]() &#124; [log]() |
+| ScanNet200 | 45.1 | 40.0 | 29.5 | 29.7 | 31.3 | [model]() &#124; [log]() |
+| S3DIS | 80.6 | 74.1 | 60.1 | 71.5 | 66.3 | [model]() &#124; [log]() |
 
 ### 🖼️ Example Semantic Segmentation
 
