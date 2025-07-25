@@ -154,7 +154,7 @@ Note: Due to random initialization, training results may slightly vary. Running 
 </p>
 
 
-### Citation
+## Citation
 
 If you find this work useful for your research, please cite our paper:
 
@@ -166,3 +166,14 @@ If you find this work useful for your research, please cite our paper:
   year={2025}
 }
 ```
+
+
+## Acknowledgements
+
+We gratefully acknowledge the following open-source projects that our work builds upon:
+
+- [OneFormer3D](https://github.com/filaPro/oneformer3d)
+- [Visual Classification via Description from Large Language Models](https://github.com/sachit-menon/classify_by_description_release)
+- [google-images-download](https://github.com/ultralytics/google-images-download)
+
+We thank the authors for their contributions to the community.
