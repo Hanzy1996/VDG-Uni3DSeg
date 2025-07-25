@@ -144,7 +144,7 @@ Note: Due to random initialization, training results may slightly vary. Running 
 | Dataset | mAP<sub>25</sub> | mAP<sub>50</sub> | mAP | mIoU | PQ | Download |
 |:-------:|:----------------:|:----------------:|:---:|:----:|:--:|:--------:|
 | ScanNet | 86.5 | 78.5 | 59.3 | 76.2 | 71.5 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.log) |
-| ScanNet200 | 45.1 | 40.0 | 29.5 | 29.7 | 31.3 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.log) |
+| ScanNet200 | 45.1 | 40.0 | 29.5 | 29.7 | 31.3 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet200.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet200.log) |
 | S3DIS | 80.6 | 74.1 | 60.1 | 71.5 | 66.3 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/s3dis.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/s3dis.log) |
 
 ### 🖼️ Example Semantic Segmentation
