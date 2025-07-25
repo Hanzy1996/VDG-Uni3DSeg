@@ -43,7 +43,7 @@ pip install -r requirements.txt
 python3 bing_scraper.py --search sofa --limit 20 --download --output_directory 'images/s3dis'
 ```
 
-> **Tip:** We’ve already collected images for you! Find them in `internet_image/images` or grab the zip [here]().
+> **Tip:** We’ve already collected images for you! Find them [here](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/internet_images.zip).
 
 3. Next, extract image features using the CLIP model. Use the commands below to install CLIP and extract features:
 
@@ -51,12 +51,12 @@ python3 bing_scraper.py --search sofa --limit 20 --download --output_directory '
 pip install git+https://github.com/openai/CLIP.git
 python get_image_features.py
 ```
-> Or download pre-extracted features [here]().
+> Or download pre-extracted features [here](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/internet_images_feat.zip).
 
 
 ### 📝 3. Generating LLM Descriptions
 
-We follow this [method](https://github.com/sachit-menon/classify_by_description_release), swapping GPT for [Llama3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) model.
+We follow this [method](https://github.com/sachit-menon/classify_by_description_release), replacing GPT with the open-source [Llama3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) model.
 
 1. **Get the Model:**
    ```bash
@@ -70,7 +70,7 @@ We follow this [method](https://github.com/sachit-menon/classify_by_description_
    ```
    Descriptions 👉 `./class_description/descriptors`
 
-> We’ve pre-generated descriptors for **ScanNet**, **ScanNet200**, and **S3DIS**. Download the bundle [here]().
+> We’ve pre-generated descriptors for **ScanNet**, **ScanNet200**, and **S3DIS**. Download the bundle [here](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/descriptions.zip).
 
 3. **Extract Text Features:**
    ```bash
@@ -78,7 +78,7 @@ We follow this [method](https://github.com/sachit-menon/classify_by_description_
    ```
    CLIP embeddings 👉 `class_description/clip_embedding`
 
-> Pre-extracted text features are also available [here]().
+> Pre-extracted text features are also available [here](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/descriptions_feat.zip).
 
 
 ## 🏋️‍♂️ Training and Evaluation
@@ -143,9 +143,9 @@ Note: Due to random initialization, training results may slightly vary. Running 
 
 | Dataset | mAP<sub>25</sub> | mAP<sub>50</sub> | mAP | mIoU | PQ | Download |
 |:-------:|:----------------:|:----------------:|:---:|:----:|:--:|:--------:|
-| ScanNet | 86.3 | 78.1 | 59.1 | 76.1 | 71.3 | [model]() &#124; [log]() |
-| ScanNet200 | 45.1 | 40.0 | 29.5 | 29.7 | 31.3 | [model]() &#124; [log]() |
-| S3DIS | 80.6 | 74.1 | 60.1 | 71.5 | 66.3 | [model]() &#124; [log]() |
+| ScanNet | 86.5 | 78.5 | 59.3 | 76.2 | 71.5 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.log) |
+| ScanNet200 | 45.1 | 40.0 | 29.5 | 29.7 | 31.3 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/scannet.log) |
+| S3DIS | 80.6 | 74.1 | 60.1 | 71.5 | 66.3 | [model](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/s3dis.pth) &#124; [log](https://github.com/Hanzy1996/VDG-Uni3DSeg/releases/download/v1.0.0/s3dis.log) |
 
 ### 🖼️ Example Semantic Segmentation
 
